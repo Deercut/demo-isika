@@ -23,7 +23,7 @@ public class ApiRest {
 
 	@RequestMapping("/")
 	public String hello() {
-		return "Hello Friend";
+		return "Hello Friend, tu est bien la ?";
 	}
 	
 	@RequestMapping("/sum")
